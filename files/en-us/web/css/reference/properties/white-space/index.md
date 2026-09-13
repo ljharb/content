@@ -1,12 +1,13 @@
 ---
-title: white-space
+title: "`white-space` CSS property"
+short-title: white-space
 slug: Web/CSS/Reference/Properties/white-space
 page-type: css-property
 browser-compat: css.properties.white-space
 sidebar: cssref
 ---
 
-The **`white-space`** [CSS](/en-US/docs/Web/CSS) property sets how {{Glossary("whitespace", "white space")}} inside an element is handled.
+The **`white-space`** [CSS](/en-US/docs/Web/CSS) [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) property sets how {{Glossary("whitespace", "white space")}} inside an element is handled.
 
 {{InteractiveExample("CSS Demo: white-space")}}
 
@@ -171,7 +172,7 @@ The following table summarizes the behavior of these four `white-space` keyword 
   </tbody>
 </table>
 
-A tab defaults to 8 spaces and can be configured using the [`tab-size`](/en-US/docs/Web/CSS/Reference/Properties/tab-size) property. In the case of `normal`, `nowrap`, and `pre-line` values, every tab is converted to a space (U+0020) character.
+A tab defaults to 8 spaces and can be configured using the {{cssxref("tab-size")}} property. In the case of `normal`, `nowrap`, and `pre-line` values, every tab is converted to a space (U+0020) character.
 
 > [!NOTE]
 > There is a distinction made between **spaces** and **other space separators**. These are defined as follows:
@@ -356,5 +357,5 @@ text {
 ## See also
 
 - Properties that define how words break _within themselves_: {{CSSxRef("overflow-wrap")}}, {{CSSxRef("word-break")}}, {{CSSxRef("hyphens")}}
-- [`tab-size`](/en-US/docs/Web/CSS/Reference/Properties/tab-size)
+- {{cssxref("tab-size")}}
 - [Handling whitespace in CSS](/en-US/docs/Web/CSS/Guides/Text/Whitespace)

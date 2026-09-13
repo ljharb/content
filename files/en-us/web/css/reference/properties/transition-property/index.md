@@ -1,5 +1,6 @@
 ---
-title: transition-property
+title: "`transition-property` CSS property"
+short-title: transition-property
 slug: Web/CSS/Reference/Properties/transition-property
 page-type: css-property
 browser-compat: css.properties.transition-property
@@ -7,6 +8,8 @@ sidebar: cssref
 ---
 
 The **`transition-property`** [CSS](/en-US/docs/Web/CSS) property sets the CSS properties to which a [transition effect](/en-US/docs/Web/CSS/Guides/Transitions/Using) should be applied.
+
+If you specify a shorthand property (e.g., {{cssxref("background")}}), all of its longhand sub-properties that can be animated will be.
 
 {{InteractiveExample("CSS Demo: transition-property")}}
 
@@ -49,8 +52,6 @@ transition-property: none;
   margin-right: 40%;
 }
 ```
-
-If you specify a shorthand property (e.g., {{cssxref("background")}}), all of its longhand sub-properties that can be animated will be.
 
 ## Syntax
 
@@ -101,7 +102,7 @@ transition-property: unset;
 
 ### Basic example
 
-When the button is hovered or focused, it undergoes a one-second color transition; the `transition-property` is [`background-color`](/en-US/docs/Web/CSS/Reference/Properties/background-color).
+When the button is hovered or focused, it undergoes a one-second color transition; the `transition-property` is {{cssxref("background-color")}}.
 
 #### HTML
 

@@ -5,7 +5,7 @@ page-type: learn-module-chapter
 sidebar: learnsidebar
 ---
 
-{{PreviousMenuNext("Learn_web_development/Extensions/Performance/measuring_performance", "Learn_web_development/Extensions/Performance/video", "Learn_web_development/Extensions/Performance")}}
+{{PreviousMenuNext("Learn_web_development/Extensions/Performance/Measuring_performance", "Learn_web_development/Extensions/Performance/video", "Learn_web_development/Extensions/Performance")}}
 
 Media, namely images and video, account for over 70% of the bytes downloaded for the average website. In terms of download performance, eliminating media, and reducing file size is the low-hanging fruit. This article looks at optimizing images and video to improve web performance.
 
@@ -50,7 +50,7 @@ Despite being the largest consumer of bandwidth, the impact of image downloading
 
 ### Loading strategy
 
-One of the biggest improvements to most websites is [lazy-loading](/en-US/docs/Web/Performance/Guides/Lazy_loading) images beneath the fold, rather than downloading them all on initial page load regardless of whether a visitor scrolls to see them or not. Browsers provide this natively via the [`loading="lazy"`](/en-US/docs/Web/HTML/Reference/Elements/img#loading) attribute on the `<img>` element, and there are also many client-side JavaScript libraries that can do this.
+One of the biggest improvements to most websites is [lazy-loading](/en-US/docs/Web/Performance/Guides/Lazy_loading) images beneath the fold, rather than downloading them all on initial page load regardless of whether a visitor scrolls to see them or not. Browsers provide this natively via the [`loading="lazy"`](/en-US/docs/Web/HTML/Reference/Elements/img#loading) attribute on the `<img>` `<iframe>`, `<video>`, and `<audio>` elements, and there are also many client-side JavaScript libraries that can do this.
 
 Beyond loading a subset of images, you should look into the format of the images themselves:
 
@@ -157,4 +157,4 @@ For any background images, it's important you set a `background-color` value so 
 
 In this section, we took a look at image optimization. You now have a general understanding of how to optimize half of the average website's average bandwidth total. This is just one of the types of media consuming users' bandwidth and slowing down page load. Let's take a look at video optimization, tackling the next 20% of bandwidth consumption.
 
-{{PreviousMenuNext("Learn_web_development/Extensions/Performance/measuring_performance", "Learn_web_development/Extensions/Performance/video", "Learn_web_development/Extensions/Performance")}}
+{{PreviousMenuNext("Learn_web_development/Extensions/Performance/Measuring_performance", "Learn_web_development/Extensions/Performance/video", "Learn_web_development/Extensions/Performance")}}

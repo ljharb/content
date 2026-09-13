@@ -1,5 +1,6 @@
 ---
-title: -webkit-transform-2d
+title: "`-webkit-transform-2d` CSS media feature"
+short-title: -webkit-transform-2d
 slug: Web/CSS/Reference/At-rules/@media/-webkit-transform-2d
 page-type: css-media-feature
 status:
@@ -40,7 +41,7 @@ Apple has [a description in Safari CSS Reference](https://developer.apple.com/li
 }
 ```
 
-This media feature is only supported by WebKit. The unprefixed [`transform`](/en-US/docs/Web/CSS/Reference/Properties/transform) property is supported in all modern browsers. If possible, use an {{cssxref("@supports")}} feature query instead:
+This media feature is only supported by WebKit. The unprefixed {{cssxref("transform")}} property is supported in all modern browsers. If possible, use an {{cssxref("@supports")}} feature query instead:
 
 ```css
 @supports (-webkit-transform: translate(100px, 100px)) {
@@ -63,7 +64,6 @@ Not part of any standard.
 - {{cssxref("@media/-webkit-transform-3d", "-webkit-transform-3d")}}
 - {{cssxref("@media/-webkit-transition", "-webkit-transition")}}
 - {{cssxref("@media/-webkit-animation", "-webkit-animation")}}
-- [Test page at quirksmode.org](https://www.quirksmode.org/css/tests/mediaqueries/animation.html)
 - {{cssxref("transform")}} and [using CSS transforms](/en-US/docs/Web/CSS/Guides/Transforms/Using)
 - {{cssxref("@media")}} and [Using media queries](/en-US/docs/Web/CSS/Guides/Media_queries/Using)
 - {{cssxref("@supports")}} and [using feature queries](/en-US/docs/Web/CSS/Guides/Conditional_rules/Using_feature_queries)

@@ -1,5 +1,6 @@
 ---
-title: :fullscreen
+title: "`:fullscreen` CSS pseudo-class"
+short-title: :fullscreen
 slug: Web/CSS/Reference/Selectors/:fullscreen
 page-type: css-pseudo-class
 browser-compat: css.selectors.fullscreen
@@ -44,7 +45,7 @@ This example applies a different background color to a {{htmlelement("div")}} el
 </div>
 ```
 
-The `:fullscreen` pseudo-class is used to override the [`background-color`](/en-US/docs/Web/CSS/Reference/Properties/background-color) of the `<div>` when it is in fullscreen mode.
+The `:fullscreen` pseudo-class is used to override the {{cssxref("background-color")}} of the `<div>` when it is in fullscreen mode.
 
 ```css
 .element {
@@ -93,8 +94,10 @@ document.querySelector(".toggle").addEventListener("click", (event) => {
 
 ## See also
 
-- [Fullscreen API](/en-US/docs/Web/API/Fullscreen_API)
-- [Guide to the Fullscreen API](/en-US/docs/Web/API/Fullscreen_API/Guide)
 - {{cssxref("::backdrop")}}
+- {{cssxref(":xr-overlay")}}
+- [CSS selectors](/en-US/docs/Web/CSS/Guides/Selectors) module
+- [Guide to the Fullscreen API](/en-US/docs/Web/API/Fullscreen_API/Guide)
+- [Fullscreen API](/en-US/docs/Web/API/Fullscreen_API)
 - DOM API: {{ domxref("Element.requestFullscreen()") }}, {{ domxref("Document.exitFullscreen()") }}, {{ domxref("Document.fullscreenElement") }}
 - [`allowfullscreen`](/en-US/docs/Web/HTML/Reference/Elements/iframe#allowfullscreen) attribute

@@ -22,6 +22,13 @@ sidebar:
     link: /Web/Security/Practical_implementation_guides
     title: Practical implementation guides
     details: closed
-  - /Web/Security/IFrame_credentialless
-  - /Web/Security/Referer_header:_privacy_and_security_concerns
-  - /Web/Security/Firefox_Security_Guidelines
+  - type: listSubPages
+    path: /Web/Security/Threat_modeling
+    link: /Web/Security/Threat_modeling
+    title: Threat modeling
+    details: closed
+l10n:
+  fr:
+    Guides: Guides
+    Practical implementation guides: Guides pratiques de mise en œuvre
+    Threat modeling: Modélisation des menaces

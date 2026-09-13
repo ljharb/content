@@ -1,12 +1,13 @@
 ---
-title: border-radius
+title: "`border-radius` CSS property"
+short-title: border-radius
 slug: Web/CSS/Reference/Properties/border-radius
 page-type: css-shorthand-property
 browser-compat: css.properties.border-radius
 sidebar: cssref
 ---
 
-The **`border-radius`** [CSS](/en-US/docs/Web/CSS) property rounds the corners of an element's outer border edge. You can set a single radius to make circular corners, or two radii to make elliptical corners.
+The **`border-radius`** [CSS](/en-US/docs/Web/CSS) [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) property rounds the corners of an element's outer border edge. You can set a single radius to make circular corners, or two radii to make elliptical corners.
 
 {{InteractiveExample("CSS Demo: border-radius")}}
 
@@ -59,10 +60,10 @@ border-radius: 50% 20% / 10% 40%;
 
 This property is a shorthand for the following CSS properties:
 
-- [`border-top-left-radius`](/en-US/docs/Web/CSS/Reference/Properties/border-top-left-radius)
-- [`border-top-right-radius`](/en-US/docs/Web/CSS/Reference/Properties/border-top-right-radius)
-- [`border-bottom-right-radius`](/en-US/docs/Web/CSS/Reference/Properties/border-bottom-right-radius)
-- [`border-bottom-left-radius`](/en-US/docs/Web/CSS/Reference/Properties/border-bottom-left-radius)
+- {{cssxref("border-top-left-radius")}}
+- {{cssxref("border-top-right-radius")}}
+- {{cssxref("border-bottom-right-radius")}}
+- {{cssxref("border-bottom-left-radius")}}
 
 ## Syntax
 

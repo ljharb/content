@@ -1,23 +1,24 @@
 ---
-title: mask-border
+title: "`mask-border` CSS property"
+short-title: mask-border
 slug: Web/CSS/Reference/Properties/mask-border
 page-type: css-shorthand-property
 browser-compat: css.properties.mask-border
 sidebar: cssref
 ---
 
-The **`mask-border`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) lets you create a mask along the edge of an element's border.
+The **`mask-border`** [CSS](/en-US/docs/Web/CSS) [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) property lets you create a mask along the edge of an element's border.
 
 ## Constituent properties
 
 This property is a shorthand for the following CSS properties:
 
-- [`mask-border-mode`](/en-US/docs/Web/CSS/Reference/Properties/mask-border-mode)
-- [`mask-border-outset`](/en-US/docs/Web/CSS/Reference/Properties/mask-border-outset)
-- [`mask-border-repeat`](/en-US/docs/Web/CSS/Reference/Properties/mask-border-repeat)
-- [`mask-border-slice`](/en-US/docs/Web/CSS/Reference/Properties/mask-border-slice)
-- [`mask-border-source`](/en-US/docs/Web/CSS/Reference/Properties/mask-border-source)
-- [`mask-border-width`](/en-US/docs/Web/CSS/Reference/Properties/mask-border-width)
+- {{cssxref("mask-border-mode")}}
+- {{cssxref("mask-border-outset")}}
+- {{cssxref("mask-border-repeat")}}
+- {{cssxref("mask-border-slice")}}
+- {{cssxref("mask-border-source")}}
+- {{cssxref("mask-border-width")}}
 
 ## Syntax
 
@@ -71,7 +72,7 @@ mask-border: unset;
 
 In this example, we will mask an element's border with a diamond pattern. The source for the mask is a ".png" file of 90 by 90 pixels, with three diamonds going vertically and horizontally:
 
-<img src="https://mdn.github.io/shared-assets/images/examples/mask-border-diamonds.png" alt="The image used for the mask examples on this page. The mask is a transparent square with three rows of three diamonds each. The diamonds are a very light, almost white, shade of grey. The middle part between the diamonds is also solid grey. The parts between the outside of the diamonds and the edge of the image are transparent." loading="lazy" style="background-color: black;">
+<img src="https://mdn.github.io/shared-assets/images/examples/mask-border-diamonds.png" alt="The image used for the mask examples on this page. The mask is a transparent square with three rows of three diamonds each. The diamonds are a very light, almost white, shade of gray. The middle part between the diamonds is also solid gray. The parts between the outside of the diamonds and the edge of the image are transparent." loading="lazy" style="background-color: black;">
 
 To match the size of a single diamond, we will use a value of 90 divided by 3, or `30`, for slicing the image into corner and edge regions. A repeat value of `round` will make the mask slices fit evenly, i.e., without clipping or gaps.
 

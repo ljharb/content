@@ -209,7 +209,7 @@ To control the inline-size of each flex item, we target them directly via three 
 
 We will take a brief look at these properties below, but if you want more comprehensive information, take a look at the [Controlling ratios of flex items on the main axis](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Controlling_flex_item_ratios) guide.
 
-Before we can make sense of these properties we need to consider the concept of **available space**. What we are doing when we change the value of these flex properties is to change the way that available space is distributed amongst our items. This concept of available space is also important when we come to look at aligning items.
+Before we can make sense of these properties we need to consider the concept of **available space**. What we are doing when we change the value of these flex properties is to change the way that available space is distributed among our items. This concept of available space is also important when we come to look at aligning items.
 
 If we have three 100 pixel-wide items in a container which is 500 pixels wide, then the space we need to lay out our items is 300 pixels. This leaves 200 pixels of available space. If we don't change the initial values then flexbox will put that space after the last item.
 
@@ -429,13 +429,13 @@ The article [Aligning items in a flex container](/en-US/docs/Web/CSS/Guides/Flex
 
 ### justify-items
 
-The [`justify-items`](/en-US/docs/Web/CSS/Reference/Properties/justify-items) property is ignored in flexbox layouts.
+The {{cssxref("justify-items")}} property is ignored in flexbox layouts.
 
 ### place-items and place-content
 
-The [`place-items`](/en-US/docs/Web/CSS/Reference/Properties/place-items) property is a shorthand property for `align-items` and `justify-items`. If set on a flex container, it will set the alignment but not the justification, as `justify-items` is ignored in flexbox.
+The {{cssxref("place-items")}} property is a shorthand property for `align-items` and `justify-items`. If set on a flex container, it will set the alignment but not the justification, as `justify-items` is ignored in flexbox.
 
-There is another shorthand property, [`place-content`](/en-US/docs/Web/CSS/Reference/Properties/place-content), that defines the {{cssxref("align-content")}} and `justify-content` properties. The `align-content` property only effects flex containers that wrap, and is discussed in [Aligning items in a flex container](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items).
+There is another shorthand property, {{cssxref("place-content")}}, that defines the {{cssxref("align-content")}} and `justify-content` properties. The `align-content` property only affects flex containers that wrap, and is discussed in [Aligning items in a flex container](/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items).
 
 ## Next steps
 

@@ -1,12 +1,13 @@
 ---
-title: :root
+title: "`:root` CSS pseudo-class"
+short-title: :root
 slug: Web/CSS/Reference/Selectors/:root
 page-type: css-pseudo-class
 browser-compat: css.selectors.root
 sidebar: cssref
 ---
 
-The **`:root`** [CSS](/en-US/docs/Web/CSS) [pseudo-class](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes) matches the root element of a tree representing the document. In HTML, `:root` represents the {{HTMLElement("html")}} element and is identical to the selector `html`, except that its [specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity) is higher.
+The **`:root`** [CSS](/en-US/docs/Web/CSS) [pseudo-class](/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes) matches the root element of a tree representing the document. In HTML, `:root` represents the {{HTMLElement("html")}} element and is identical to the selector `html`, except that its [specificity](/en-US/docs/Web/CSS/Guides/Cascade/Specificity) (0-1-0) is higher than html's (0-0-1).
 
 ```css
 /* Selects the root element of the document:

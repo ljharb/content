@@ -1,12 +1,13 @@
 ---
-title: border-color
+title: "`border-color` CSS property"
+short-title: border-color
 slug: Web/CSS/Reference/Properties/border-color
 page-type: css-shorthand-property
 browser-compat: css.properties.border-color
 sidebar: cssref
 ---
 
-The **`border-color`** [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property sets the color of an element's border.
+The **`border-color`** [CSS](/en-US/docs/Web/CSS) [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) property sets the color of an element's border.
 
 {{InteractiveExample("CSS Demo: border-color")}}
 
@@ -53,10 +54,10 @@ border-color: red yellow green transparent;
 
 This property is a shorthand for the following CSS properties:
 
-- [`border-bottom-color`](/en-US/docs/Web/CSS/Reference/Properties/border-bottom-color)
-- [`border-left-color`](/en-US/docs/Web/CSS/Reference/Properties/border-left-color)
-- [`border-right-color`](/en-US/docs/Web/CSS/Reference/Properties/border-right-color)
-- [`border-top-color`](/en-US/docs/Web/CSS/Reference/Properties/border-top-color)
+- {{cssxref("border-bottom-color")}}
+- {{cssxref("border-left-color")}}
+- {{cssxref("border-right-color")}}
+- {{cssxref("border-top-color")}}
 
 ## Syntax
 

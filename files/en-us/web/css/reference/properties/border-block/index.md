@@ -1,12 +1,13 @@
 ---
-title: border-block
+title: "`border-block` CSS property"
+short-title: border-block
 slug: Web/CSS/Reference/Properties/border-block
 page-type: css-shorthand-property
 browser-compat: css.properties.border-block
 sidebar: cssref
 ---
 
-The **`border-block`** [CSS](/en-US/docs/Web/CSS) property is a [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) for setting the individual logical block border property values in a single place in the style sheet.
+The **`border-block`** [CSS](/en-US/docs/Web/CSS) [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) property sets the individual logical block border property values in a single place in the style sheet.
 
 {{InteractiveExample("CSS Demo: border-block")}}
 
@@ -49,9 +50,9 @@ direction: rtl;
 
 This property is a shorthand for the following CSS properties:
 
-- [`border-block-color`](/en-US/docs/Web/CSS/Reference/Properties/border-block-color)
-- [`border-block-style`](/en-US/docs/Web/CSS/Reference/Properties/border-block-style)
-- [`border-block-width`](/en-US/docs/Web/CSS/Reference/Properties/border-block-width)
+- {{cssxref("border-block-color")}}
+- {{cssxref("border-block-style")}}
+- {{cssxref("border-block-width")}}
 
 ## Syntax
 
@@ -72,9 +73,9 @@ border-block: unset;
 
 The `border-block` is specified with one or more of the following, in any order:
 
-- `<'border-width'>`
+- {{cssxref("&lt;line-width&gt;")}}
   - : The width of the border. See {{cssxref("border-width")}}.
-- `<'border-style'>`
+- {{cssxref("&lt;line-style&gt;")}}
   - : The line style of the border. See {{cssxref("border-style")}}.
 - {{CSSXref("&lt;color&gt;")}}
   - : The color of the border.

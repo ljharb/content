@@ -1,5 +1,6 @@
 ---
-title: page
+title: "`page` CSS property"
+short-title: page
 slug: Web/CSS/Reference/Properties/page
 page-type: css-property
 browser-compat: css.properties.page
@@ -8,7 +9,7 @@ sidebar: cssref
 
 The **`page`** [CSS](/en-US/docs/Web/CSS) property is used to specify the named page, a specific type of page defined by the {{cssxref("@page")}} [at-rule](/en-US/docs/Web/CSS/Guides/Syntax/At-rules).
 
-If there are multiple selectors that are using a named page consecutively then a forced page break using [`break-after`](/en-US/docs/Web/CSS/Reference/Properties/break-after) may be needed.
+If there are multiple selectors that are using a named page consecutively then a forced page break using {{cssxref("break-after")}} may be needed.
 
 ## Syntax
 
@@ -33,7 +34,7 @@ page: unset;
 - `auto`
   - : Default value. Use the value of the nearest ancestor with a non-`auto` value. If no ancestor has a named page value set, the used value for auto is the empty string.
 - {{cssxref("custom-ident")}}
-  - : Case-sensitive name defined in a [`@page`](/en-US/docs/Web/CSS/Reference/At-rules/@page) at-rule.
+  - : Case-sensitive name defined in a {{cssxref("@page")}} at-rule.
 
 ## Formal definition
 

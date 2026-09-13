@@ -30,15 +30,15 @@ Document.parseHTMLUnsafe(input, options)
 ### Parameters
 
 - `input`
-  - : A {{domxref("TrustedHTML")}} or string instance defining HTML to be parsed.
+  - : A {{domxref("TrustedHTML")}} instance or a string defining HTML to be parsed.
 - `options` {{optional_inline}}
   - : An options object with the following optional parameters:
     - `sanitizer` {{optional_inline}}
       - : A {{domxref("Sanitizer")}} or {{domxref("SanitizerConfig")}} object which defines what elements of the input will be allowed or removed.
-        This can also be a string with the value `"default"`, which applies a `Sanitizer` with the default (XSS-safe) configuration.
+        This can also be a string with the value `"default"`, which applies a `Sanitizer` with the (XSS-safe) [default sanitizer configuration](/en-US/docs/Web/API/HTML_Sanitizer_API/Default_sanitizer_configuration).
         If not specified, no sanitizer is used.
 
-        Note that generally a `Sanitizer` is expected than the to be more efficient than a `SanitizerConfig` if the configuration is to reused.
+        Note that if you're using the same configuration multiple times, it's expected to be more efficient to use a `Sanitizer` and modify it when you need to.
 
 ### Return value
 
@@ -50,9 +50,10 @@ A {{domxref("Document")}}.
   - : This is thrown if:
     - `html` is passed a string when [Trusted Types](/en-US/docs/Web/API/Trusted_Types_API) are [enforced by a CSP](/en-US/docs/Web/API/Trusted_Types_API#using_a_csp_to_enforce_trusted_types) and no default policy is defined.
     - `options.sanitizer` is passed a:
-      - value that is not a {{domxref("Sanitizer")}}, {{domxref("SanitizerConfig")}}, or string.
-      - non-normalized {{domxref("SanitizerConfig")}} (one that includes both "allowed" and "removed" configuration settings).
+      - {{domxref("SanitizerConfig")}} that isn't [valid](/en-US/docs/Web/API/SanitizerConfig#valid_configuration).
+        For example, a configuration that includes both "allowed" and "removed" configuration settings.
       - string that does not have the value `"default"`.
+      - value that is not a {{domxref("Sanitizer")}}, {{domxref("SanitizerConfig")}}, or string.
 
 ## Description
 
@@ -77,7 +78,7 @@ This ensures that the input is passed through a transformation function, which h
 Using `TrustedHTML` makes it possible to audit and check that sanitization code is effective in just a few places, rather than scattered across all your injection sinks.
 You should not need to pass a sanitizer to the method when using `TrustedHTML`.
 
-If for any reason you can't use `TrustedHTML` (or even better, `setHTML()`) then the next safest option is to use `setHTMLUnsafe()` with the XSS-safe default {{domxref("Sanitizer")}}.
+If for any reason you can't use `TrustedHTML` (or even better, `setHTML()`) then the next safest option is to use `setHTMLUnsafe()` with the XSS-safe [default sanitizer configuration](/en-US/docs/Web/API/HTML_Sanitizer_API/Default_sanitizer_configuration).
 
 ## Specifications
 

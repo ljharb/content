@@ -1,5 +1,6 @@
 ---
-title: clear
+title: "`clear` CSS property"
+short-title: clear
 slug: Web/CSS/Reference/Properties/clear
 page-type: css-property
 browser-compat: css.properties.clear
@@ -86,6 +87,8 @@ clear: unset;
 
 ### Values
 
+This property is specified as one of the following keyword values:
+
 - `none`
   - : Is a keyword indicating that the element is _not_ moved down to clear past floating elements.
 - `left`
@@ -108,7 +111,7 @@ Vertical margins between two floated elements on the other hand will not collaps
 The floats that are relevant to be cleared are the earlier floats within the same [block formatting context](/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context).
 
 > [!NOTE]
-> If an element contains only floated elements, its height collapses to nothing. If you want it to always be able to resize, so that it contains floating elements inside it, set the value of the element's [`display`](/en-US/docs/Web/CSS/Reference/Properties/display) property to [`flow-root`](/en-US/docs/Web/CSS/Reference/Properties/display#flow-root).
+> If an element contains only floated elements, its height collapses to nothing. If you want it to always be able to resize, so that it contains floating elements inside it, set the value of the element's {{cssxref("display")}} property to [`flow-root`](/en-US/docs/Web/CSS/Reference/Properties/display#flow-root).
 >
 > ```css
 > #container {

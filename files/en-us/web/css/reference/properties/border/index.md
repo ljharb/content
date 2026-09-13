@@ -1,12 +1,13 @@
 ---
-title: border
+title: "`border` CSS property"
+short-title: border
 slug: Web/CSS/Reference/Properties/border
 page-type: css-shorthand-property
 browser-compat: css.properties.border
 sidebar: cssref
 ---
 
-The **`border`** [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property sets an element's border. It sets the values of {{Cssxref("border-width")}}, {{Cssxref("border-style")}}, and {{Cssxref("border-color")}}.
+The **`border`** [CSS](/en-US/docs/Web/CSS) [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) property sets an element's border. It sets the values of {{Cssxref("border-width")}}, {{Cssxref("border-style")}}, and {{Cssxref("border-color")}}.
 
 {{InteractiveExample("CSS Demo: border")}}
 
@@ -52,9 +53,9 @@ border: 4mm ridge rgb(211 220 50 / 0.6);
 
 This property is a shorthand for the following CSS properties:
 
-- [`border-width`](/en-US/docs/Web/CSS/Reference/Properties/border-width)
-- [`border-style`](/en-US/docs/Web/CSS/Reference/Properties/border-style)
-- [`border-color`](/en-US/docs/Web/CSS/Reference/Properties/border-color)
+- {{cssxref("border-width")}}
+- {{cssxref("border-style")}}
+- {{cssxref("border-color")}}
 
 ## Syntax
 

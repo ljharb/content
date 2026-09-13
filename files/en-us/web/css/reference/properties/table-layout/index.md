@@ -1,5 +1,6 @@
 ---
-title: table-layout
+title: "`table-layout` CSS property"
+short-title: table-layout
 slug: Web/CSS/Reference/Properties/table-layout
 page-type: css-property
 browser-compat: css.properties.table-layout
@@ -88,11 +89,13 @@ table-layout: unset;
 
 ### Values
 
+This property is specified as one of the following keyword values:
+
 - `auto`
   - : The automatic table layout algorithm is used. The widths of the table and its cells are adjusted to fit the content. Most browsers use this algorithm by default.
 
 - `fixed`
-  - : The fixed table layout algorithm is used. When using this keyword, the table's width _needs to be specified explicitly_ using the [`width`](/en-US/docs/Web/CSS/Reference/Properties/width) property. If the value of the `width` property is set to `auto` or is not specified, the browser uses the automatic table layout algorithm, in which case the `fixed` value has no effect.\
+  - : The fixed table layout algorithm is used. When using this keyword, the table's width _needs to be specified explicitly_ using the {{cssxref("width")}} property. If the value of the `width` property is set to `auto` or is not specified, the browser uses the automatic table layout algorithm, in which case the `fixed` value has no effect.\
     The fixed table layout algorithm is faster than the automatic layout algorithm because the horizontal layout of the table depends only on the table's width, the width of the columns, and borders or cell spacing. The horizontal layout doesn't depend on the contents of the cells because it depends only on explicitly set widths.
 
     In the fixed table layout algorithm, the width of each column is determined as follows:

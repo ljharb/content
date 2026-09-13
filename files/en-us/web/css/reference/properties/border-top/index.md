@@ -1,12 +1,13 @@
 ---
-title: border-top
+title: "`border-top` CSS property"
+short-title: border-top
 slug: Web/CSS/Reference/Properties/border-top
 page-type: css-shorthand-property
 browser-compat: css.properties.border-top
 sidebar: cssref
 ---
 
-The **`border-top`** [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) [CSS](/en-US/docs/Web/CSS) property sets all the properties of an element's top [border](/en-US/docs/Web/CSS/Reference/Properties/border).
+The **`border-top`** [CSS](/en-US/docs/Web/CSS) [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) property sets all the properties of an element's top [border](/en-US/docs/Web/CSS/Reference/Properties/border).
 
 {{InteractiveExample("CSS Demo: border-top")}}
 
@@ -52,9 +53,9 @@ border-top: 4mm ridge rgb(211 220 50 / 0.6);
 
 This property is a shorthand for the following CSS properties:
 
-- [`border-top-color`](/en-US/docs/Web/CSS/Reference/Properties/border-top-color)
-- [`border-top-style`](/en-US/docs/Web/CSS/Reference/Properties/border-top-style)
-- [`border-top-width`](/en-US/docs/Web/CSS/Reference/Properties/border-top-width)
+- {{cssxref("border-top-color")}}
+- {{cssxref("border-top-style")}}
+- {{cssxref("border-top-width")}}
 
 ## Syntax
 
@@ -145,6 +146,6 @@ div {
 
 ## See also
 
-- [`border`](/en-US/docs/Web/CSS/Reference/Properties/border)
-- [`border-block`](/en-US/docs/Web/CSS/Reference/Properties/border-block)
-- [`outline`](/en-US/docs/Web/CSS/Reference/Properties/outline)
+- {{cssxref("border")}}
+- {{cssxref("border-block")}}
+- {{cssxref("outline")}}

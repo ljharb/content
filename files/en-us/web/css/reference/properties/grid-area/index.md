@@ -1,12 +1,13 @@
 ---
-title: grid-area
+title: "`grid-area` CSS property"
+short-title: grid-area
 slug: Web/CSS/Reference/Properties/grid-area
 page-type: css-shorthand-property
 browser-compat: css.properties.grid-area
 sidebar: cssref
 ---
 
-The **`grid-area`** [CSS](/en-US/docs/Web/CSS) [shorthand property](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) specifies a grid item's size and location within a {{glossary("grid", "grid")}} by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the edges of its {{glossary("grid areas", "grid area")}}.
+The **`grid-area`** [CSS](/en-US/docs/Web/CSS) [shorthand](/en-US/docs/Web/CSS/Guides/Cascade/Shorthand_properties) property specifies a grid item's size and location within a {{glossary("grid", "grid")}} by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the edges of its {{glossary("grid areas", "grid area")}}.
 
 {{InteractiveExample("CSS Demo: grid-area")}}
 
@@ -73,10 +74,10 @@ The `grid-area` property can also be set to a {{cssxref("&lt;custom-ident&gt;")}
 
 This property is a shorthand for the following CSS properties:
 
-- [`grid-row-start`](/en-US/docs/Web/CSS/Reference/Properties/grid-row-start)
-- [`grid-column-start`](/en-US/docs/Web/CSS/Reference/Properties/grid-column-start)
-- [`grid-row-end`](/en-US/docs/Web/CSS/Reference/Properties/grid-row-end)
-- [`grid-column-end`](/en-US/docs/Web/CSS/Reference/Properties/grid-column-end)
+- {{cssxref("grid-row-start")}}
+- {{cssxref("grid-column-start")}}
+- {{cssxref("grid-row-end")}}
+- {{cssxref("grid-column-end")}}
 
 ## Syntax
 

@@ -9,7 +9,7 @@ sidebar: cssref
 
 Media queries are used for the following:
 
-- To conditionally apply styles with the [CSS](/en-US/docs/Web/CSS) {{cssxref("@media")}} and {{cssxref("@import")}} [at-rules](/en-US/docs/Web/CSS/Guides/Syntax/At-rules).
+- To conditionally apply styles with the [CSS](/en-US/docs/Web/CSS) {{cssxref("@media")}}, {{cssxref("@custom-media")}} and {{cssxref("@import")}} [at-rules](/en-US/docs/Web/CSS/Guides/Syntax/At-rules).
 - To target specific media for the {{HTMLElement("style")}}, {{HTMLElement("link")}}, {{HTMLElement("source")}}, and other [HTML](/en-US/docs/Web/HTML) elements with the `media=` or `sizes="` attributes.
 - To [test and monitor media states](/en-US/docs/Web/CSS/Guides/Media_queries/Testing) using the {{domxref("Window.matchMedia()")}} and {{domxref("EventTarget.addEventListener()")}} methods.
 
@@ -71,7 +71,7 @@ Queries involving unknown media types are always false.
 > [!NOTE]
 > A style sheet with a media query attached to its {{HTMLElement("link")}} tag [will still download](https://scottjehl.github.io/CSS-Download-Tests/) even if the query returns `false`, the download will happen but the priority of downloading will be much lower.
 > Nevertheless, its contents will not apply unless and until the result of the query changes to `true`.
-> You can read why this happens in Tomayac's blog [Why Browser Download Stylesheet with Non-Matching Media Queries](https://medium.com/@tomayac/why-browsers-download-stylesheets-with-non-matching-media-queries-eb61b91b85a2).
+> You can read why this happens in Tomayac's blog [Why Browsers Download Stylesheets With Non-Matching Media Queries](https://medium.com/@tomayac/why-browsers-download-stylesheets-with-non-matching-media-queries-eb61b91b85a2).
 
 ## Targeting media types
 
